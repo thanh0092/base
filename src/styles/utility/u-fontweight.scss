@@ -1,0 +1,11 @@
+@for $i from 1 through 9 {
+    .font-weight-#{$i} {
+        font-weight: $i * 100;
+    }
+}
+.font-bold{
+    font-weight: bold;
+}
+.font-light{
+    font-weight: lighter;
+}

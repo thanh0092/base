@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//foundation
+@import './foundation/base.scss';
+@import './foundation/mixin.scss';
+@import './foundation/reset.scss';
+@import './foundation/variable.scss';
+
+
+//layout
+@import './layout/l-header.scss';
+@import './layout/l-footer.scss';
+
+//object
+@import './object/components/c-button.scss';
+@import './object/project/p-card.scss';
+
+//utility
+@import './utility/u-margin.scss';
+
